@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "username": "dimas123",
+    "firstName": "Dimas",
+    "lastName": "Khaerudin",
+    "email": "dimaskhaerudin666@gmail.com",
+    "password": "dimas123123",
+    "phone": "087788744971",
+    "userStatus": 0
+  },
+  {
+    "id": 2,
+    "username": "khaerudin123",
+    "firstName": "Khaerudin",
+    "lastName": "Khaerudinss",
+    "email": "dimaskhaerudin777@gmail.com",
+    "password": "khaerudin123123",
+    "phone": "08778877887788",
+    "userStatus": 0
+  },
+  {
+    "id": 3,
+    "username": "imam123",
+    "firstName": "Imam",
+    "lastName": "Jombang",
+    "email": "imamjombang@gmail.com",
+    "password": "imam123123",
+    "phone": "081317027700",
+    "userStatus": 1
+  }
+]
