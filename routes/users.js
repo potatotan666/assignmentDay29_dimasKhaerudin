@@ -69,6 +69,7 @@ router.put("/:id", function (req, res, next) {
   res.status(200).json({ message: "Success update new data!" });
 });
 
+// delete data from db
 router.delete("/:id", function (req, res, next) {
   const query = "DELETE from users WHERE username = ?";
   const username = req.params.id;
