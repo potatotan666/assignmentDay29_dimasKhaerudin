@@ -8,9 +8,32 @@
 	"item": [
 		{
 			"name": "Read users by username in users.json",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/users/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "dimas123"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -99,13 +122,19 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/users/dimas123",
+					"raw": "{{url}}/users/:id",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"users",
-						"dimas123"
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "dimas123"
+						}
 					]
 				}
 			},
